@@ -15,23 +15,23 @@ else { alert("it's ok, we understand!")}
 let yourAge = prompt ("What is your age?");
 
 let age = Number (yourAge);
-if (yourAge) {   
+ if (yourAge) {   
 
 if (!Number.isNaN (age)) { 
 
 if (age <0) { alert(" ha-ha, its not exist!");
     
 }
-if (age<13) { alert ("We need your parents :(");
+else if (age<13) { alert ("We need your parents :(");
     
 }
-if (age<18) { alert ("Oh no, very young to subscribe without parents... ");
+else if (age<18) { alert ("Oh no, very young to subscribe without parents... ");
     
 }
-if (age <90) { alert ("Enjoy your life now!");
+else if (age <90) { alert ("Enjoy your life now!");
     
 }
-if (age>90) {alert ("You are lucky!");
+else  (age>90) { alert ("You are lucky!");
     
 }}}
 
